@@ -1,0 +1,38 @@
+.lista-guia {
+  margin-top: 20px;
+}
+
+.lista-guia h3 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.lista-guia ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-guia li {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.lista-guia li:hover {
+  background-color: #f1f1f1;
+}
+
+.lista-guia select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #888;
+  cursor: pointer;
+  background-color: #fff;
+}
